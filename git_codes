@@ -1,0 +1,27 @@
+:: GIT CODES ::
+git init :: INICIALIZA UM NOVO REPOSITÓRIO
+
+git status :: VERIFICA O STATUS ATUAL DO REPOSITÓRIO GIT
+
+git add "meu_arquivo.cod" :: ADICIONA O ARQUIVO ATUAL AO PRÓXIMO COMMIT
+git add . :: ADICIONA OS ARQUIVOS ATUAIS AO PRÓXIMO COMMIT
+
+git commit -m "commit inicial" :: CRIA UM NOVO COMMIT COM UMA MENSAGEM
+
+git remote add origin <https://github.com/name/repository> :: ADICIONA REPOSITÓRIO
+git push <--set-upstream origin master> :: ENVIA ATUALIZAÇÕES PARA A NUVEM NA BRANCH ATIVA
+
+git reflog :: HISTÓRICO DE VERSÕES
+git reset --hard <num_id> :: RETORNA PARA VERSÃO DO ID
+
+git branch :: 	VERIFICAR BRANCHS
+git branch <staging> :: CRIAR BRANCHS
+git checkout staging :: TROCAR BRANCHS
+
+git merge <branch_name> :: UNIÃO DE BRANCHS
+
+git pull :: ATUALIZA VERSÃO LOCAL COM A DO SERVIDOR
+
+git checkout -b <branch_name> :: CRIA BRANCH BASEADA NA PRINCIPAL
+
+touch .gitignore :: CRIAR ARQUIVO .gitignore (colocar arquivos conforme nome git status)
