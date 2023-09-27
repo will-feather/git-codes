@@ -14,7 +14,7 @@ git push <--set-upstream origin master> :: ENVIA ATUALIZAÇÕES PARA A NUVEM NA 
 git reflog :: HISTÓRICO DE VERSÕES
 git reset --hard <num_id> :: RETORNA PARA VERSÃO DO ID
 
-git branch :: 	VERIFICAR BRANCHS
+git branch :: VERIFICAR BRANCHS
 git branch <staging> :: CRIAR BRANCHS
 git checkout staging :: TROCAR BRANCHS
 
